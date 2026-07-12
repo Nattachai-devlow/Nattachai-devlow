@@ -12,7 +12,7 @@ For the sake of the goal, if things go wrong, it simply means starting over. Tha
       <img alt="" width="400" src="https://github.com/Nattachai-devlow/Nattachai-devlow/blob/main/github--profile--template.svg" alt=""></img>
     </td>
     <td align="center">
-      <img alt="" width="400" src="https://github.com/Nattachai-devlow/Nattachai-devlow/blob/main/cisco-academy-template.gif" alt=""></img>
+      <img alt="" width="400" src="https://github.com/Nattachai-devlow/Nattachai-devlow/blob/main/academy-cisco-badge.gif" alt=""></img>
     </td>
   </tr>
 </table>
