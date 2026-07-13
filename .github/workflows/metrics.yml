@@ -1,0 +1,26 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *" # รันทุกวันตอนเที่ยงคืน
+  workflow_dispatch: # กดรันเองได้
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Languages Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics-languages.svg
+          base: "" # ปิดส่วนหัวที่เป็นข้อมูลทั่วไป เอาเฉพาะเรื่องภาษา
+          plugin_languages: yes
+          plugin_languages_ignored: html, css # สามารถใส่ภาษาที่ไม่ต้องการให้นับได้
+          plugin_languages_details: bytes-size, lines # แสดงรายละเอียดขนาดไฟล์และจำนวนบรรทัด
+          plugin_languages_indepth: yes # เปิดโหมดเจาะลึก (Indepth analysis)
+          plugin_languages_recent_days: 14 # วิเคราะห์กิจกรรมย้อนหลังช่วงนี้ (Recently used)
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used, recently-used # แสดงทั้ง 2 ส่วนแบบในรูป
