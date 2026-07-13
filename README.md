@@ -33,4 +33,15 @@ For the sake of the goal, if things go wrong, it simply means starting over. Tha
       <td align="center" style="padding: 0;">
         <img src="./github-metrics-languages.svg" width="400" alt="GitHub Languages Metrics">
     </tr>
+        <tr>
+        <th align="center">🧰 Tech Stack & Tool</th>
+        <th align="center">🈷️ Language Activity</th>
+    </tr>
+    <td align="center" style="padding: 0;">
+      <p align="center">
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=c,cpp,html,css,js,ts,java,arduino,py,bash,github,discord,instagram,postgres,php,nodejs,react,mysql,docker,vscode,figma,materialui,gcp,linux,windows,powershell" />
+        </a>
+      </p>
+    </td>
 </table>
