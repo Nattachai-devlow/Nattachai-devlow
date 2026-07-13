@@ -39,20 +39,18 @@ For the sake of the goal, if things go wrong, it simply means starting over. Tha
   </tr>
   
   <tr>
+    <th align="center">🏢 Current Company</th> 
     <th align="center">🧰 Tech Stack & Tool</th>
-    <th align="center">📈 Profile Visitors</th> <!-- เปลี่ยนเป็นตัวนับคนดู หรือใส่หัวข้ออื่นตามใจชอบได้ครับ -->
   </tr>
   
   <tr>
-    <!-- คอลัมน์ซ้าย: จัดการไอคอนให้ตัดขึ้นบรรทัดใหม่ด้วย &perline=8 (แถวละ 8 ไอคอน) เพื่อไม่ให้ดันคอลัมน์เพื่อน -->
+    <td align="center" valign="middle" style="padding: 10px;">
+      <img src="./github--company--template.svg" alt="Company Detail" />
+    </td>
     <td align="center" valign="middle" style="padding: 10px;">
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=c,cpp,html,css,js,ts,java,arduino,py,bash,github,discord,instagram,postgres,php,nodejs,react,mysql,docker,vscode,figma,materialui,gcp,linux,windows,powershell&perline=8" alt="My Skills" />
       </a>
-    </td>
-    <!-- คอลัมน์ขวา: ใส่เพื่อบาลานซ์ตารางให้เท่ากัน (ในตัวอย่างนี้ใส่ตัวนับผู้เข้าชมไว้ให้ ถ้าไม่ชอบสามารถเปลี่ยนเป็นรูปอื่นได้ครับ) -->
-    <td align="center" valign="middle" style="padding: 10px;">
-      <img src="https://api.visitorbadge.io/api/visitors?path=Nattachai-devlow&label=VISITORS&countColor=%2326a641" alt="Visitors Badge" />
     </td>
   </tr>
 </table>
