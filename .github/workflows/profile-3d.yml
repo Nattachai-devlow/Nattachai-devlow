@@ -23,7 +23,13 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "generated" || echo "No changes to commit"
-          # ดึงไฟล์ล่าสุดลงมาเคลียร์ conflict ก่อน แล้วค่อยดันขึ้นไป
-          git pull --rebase origin main
-          git push origin main
+          # ตรวจสอบว่ามีไฟล์เปลี่ยนแปลงจริงไหมก่อน Commit
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Generated 3D Contributions"
+            # ใช้การ Fetch และ Rebase ที่ระบุปลายทางชัดเจน
+            git fetch origin main
+            git rebase origin/main
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
