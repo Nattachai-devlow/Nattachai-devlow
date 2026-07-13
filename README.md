@@ -24,7 +24,7 @@ For the sake of the goal, if things go wrong, it simply means starting over. Tha
   </tr>
     <tr>
         <th align="center">📅 3D PROFILE CONTRIB</th>
-        <th align="center">CISCO Academy badge</th>
+        <th align="center">🈷️ Language Activity</th>
     </tr>
     <tr>
       <td align="center" style="padding: 0;">
