@@ -23,12 +23,14 @@ For the sake of the goal, if things go wrong, it simply means starting over. Tha
     </th>
   </tr>
     <tr>
-        <th align="center">Contributions Overview</th>
+        <th align="center">📅 3D PROFILE CONTRIB</th>
         <th align="center">CISCO Academy badge</th>
     </tr>
     <tr>
       <td align="center" style="padding: 0;">
         <img src="./profile-3d-contrib/profile-green-animate.svg" width="400" alt="GitHub 3D Contributions">
       </td>
+      <td align="center" style="padding: 0;">
+        <img src="./github-metrics-languages.svg" width="400" alt="GitHub Languages Metrics">
     </tr>
 </table>
